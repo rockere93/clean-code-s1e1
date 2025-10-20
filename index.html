@@ -7,19 +7,20 @@
 </head>
 
 <body>
-  <div class="promo-banner">
+  <aside class="promo-banner">
     <img src="./eisenhower-matrix.jpg">
     <a class="link-more-info"href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </div>
+  </aside>
   <div class="content-wrapper">
-    <p id="section-for-add-task">
-      <label for="new-task" class="section-head">Add Item</label>
+    <section class="section-add-task">
+      <h2 class="section-head">Add Item</h2>
     <div class="task-row-wrapper">
       <input id="new-task" class="task__input" type="text">
       <button class="button">Add</button>
     </div>  
-    </p>
-    <h3 class="section-head">Todo</h3>
+    </section>
+    <section class="section-todo-task">
+    <h2 class="section-head">Todo</h2>
     <ul class="task-list" id="incomplete-tasks">
       <li class="task-item">
         <input type="checkbox"><label class="task__label">Pay Bills</label>
@@ -36,7 +37,9 @@
         <button class="button button-edit">Save</button>
         <button class="button button-delete"><img src="./remove.svg"></button></li>
     </ul>
-    <h3 class="section-head">Completed</h3>
+    </section>
+    <section class="section-completed-task">
+    <h2 class="section-head">Completed</h2>
     <ul class="task-list" id="completed-tasks">
       <li class="task-item">
         <input type="checkbox" checked>
@@ -46,6 +49,7 @@
         <button class="button button-delete"><img src="./remove.svg"></button>
       </li>
     </ul>
+    </section>
   </div>
   <script src="app.js"></script>
 </body>
