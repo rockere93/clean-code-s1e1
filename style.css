@@ -13,7 +13,7 @@ body {
 .promo-banner img {
   width: 100%;
 }
-.promo-banner .more-inf {
+.promo-banner .link-more-info {
   font-family: fantasy, cursive;
 }
 
@@ -21,7 +21,7 @@ body {
 .promo-banner { text-align: center;
 }
 }
-.centered-main-page-element {
+.content-wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
