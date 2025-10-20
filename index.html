@@ -13,37 +13,37 @@
   </div>
   <div class="content-wrapper">
     <p id="section-for-add-task">
-      <label for="new-task">Add Item</label>
+      <label for="new-task" class="section-head">Add Item</label>
     <div class="task-row-wrapper">
       <input id="new-task" class="task__input" type="text">
-      <button>Add</button>
+      <button class="button">Add</button>
     </div>  
     </p>
-    <h3>Todo</h3>
-    <ul id="incomplete-tasks">
-      <li>
+    <h3 class="section-head">Todo</h3>
+    <ul class="task-list" id="incomplete-tasks">
+      <li class="task-item">
         <input type="checkbox"><label class="task__label">Pay Bills</label>
         <input type="text" class="task__input">
-        <button class="button-edit">Edit</button>
-        <button class="button-delete">
+        <button class="button button-edit">Edit</button>
+        <button class="button button-delete">
           <img src="./remove.svg">
         </button>
       </li>
-      <li class="edit-mode">
+      <li class="task-item edit-mode">
         <input type="checkbox">
         <label class="task__label">Go Shopping</label>
         <input type="text" value="Go Shopping" class="task__input">
-        <button class="button-edit">Save</button>
-        <button class="button-delete"><img src="./remove.svg"></button></li>
+        <button class="button button-edit">Save</button>
+        <button class="button button-delete"><img src="./remove.svg"></button></li>
     </ul>
-    <h3>Completed</h3>
-    <ul id="completed-tasks">
-      <li>
+    <h3 class="section-head">Completed</h3>
+    <ul class="task-list" id="completed-tasks">
+      <li class="task-item">
         <input type="checkbox" checked>
         <label class="task__label">See the Doctor</label>
         <input type="text" class="task__input">
-        <button class="button-edit">Edit</button>
-        <button class="button-delete"><img src="./remove.svg"></button>
+        <button class="button button-edit">Edit</button>
+        <button class="button button-delete"><img src="./remove.svg"></button>
       </li>
     </ul>
   </div>
