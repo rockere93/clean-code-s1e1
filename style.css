@@ -26,6 +26,9 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
+.section-add-task {
+  padding-top: 10px;
+}
 .task__label, 
 .task__input {
   width: 56%;
@@ -34,6 +37,8 @@ body {
 }
 .task-row-wrapper {
   display: flex;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 ul {
   margin: 0;
