@@ -18,8 +18,9 @@ body {
 }
 
 @media (max-width:768px) {
-.promo-banner { text-align: center;
-}
+  .promo-banner { 
+    text-align: center;
+  }
 }
 .content-wrapper {
   display: block;
